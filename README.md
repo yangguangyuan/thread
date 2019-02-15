@@ -15,3 +15,10 @@
 ## 2.1 synchronized同步方法
 1. synchronized声明的方法一定是排队运行的
 2. 同一个类中,不同的方法加synchronized,调用的类的对象锁,是同一把锁
+3. 出现异常,锁自动释放
+
+## 2.2 synchronized同步语句块
+1. synchronized代码块锁定,用的是同一个锁,都是对象锁
+
+
+
